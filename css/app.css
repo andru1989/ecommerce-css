@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box; /* Code to respect the width of the element when adding padding or margin */
+    font-size: 62.5%; /* Convert 1REM to 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Global */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* Header and navigation */
+
+.website-name {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.website-name span {
+    color: #037bc0;
+}
+
+.nav-container {
+    border-top: .1rem solid #e1e1e1;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.hero {
+    background-image: url("../images/principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55rem;
+}
+
+/* Categories */
+
+.categories {
+    padding-top: 5rem;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.category a {
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.category a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.categories-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
