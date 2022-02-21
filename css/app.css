@@ -104,3 +104,34 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+
+/* About us */
+
+.about-us {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../images/nosotros.jpg);
+    padding: 10rem 0 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-position: left center;
+}
+
+/* .about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+}
+
+.about-us-text {
+    grid-column: 2 / 3;
+} */
+
+.about-us-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-us-text {
+    flex-basis: 50%;
+    padding-left: 4rem;
+    color: #fff;
+}
