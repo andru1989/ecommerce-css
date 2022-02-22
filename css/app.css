@@ -242,11 +242,6 @@ img {
     margin-bottom: .5rem;
 }
 
-.copyright {
-    margin-top: 5rem;
-    text-align: center;
-}
-
 .grid-footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -255,4 +250,24 @@ img {
 
 .site-footer a {
     display: block;
+}
+
+.copyright {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* About us */
+
+.about-us-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* responsive */
+    column-gap: 4rem;
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
