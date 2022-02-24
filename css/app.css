@@ -55,6 +55,7 @@ img {
     font-weight: 900;
     padding: 1rem;
     transition: background-color .3s ease;
+    text-align: center;
 }
 
 .btn:hover {
@@ -65,6 +66,10 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+.max-width-30 {
+    max-width: 30rem;
 }
 
 /* Header and navigation */
@@ -270,4 +275,35 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Blog */
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+
+.article {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.article:last-of-type {
+    border: none;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-meta p {
+    font-weight: 700;
+}
+
+.article-meta span {
+    color: #037bc0;
 }
