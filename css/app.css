@@ -307,3 +307,8 @@ img {
 .article-meta span {
     color: #037bc0;
 }
+
+.article-detail {
+    width: 60rem;
+    margin: 0 auto;
+}
